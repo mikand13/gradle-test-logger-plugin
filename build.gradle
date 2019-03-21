@@ -85,6 +85,7 @@ test {
     
     testlogger {
         theme 'mocha'
+        showStandardStreams true
     }
 
     exclude 'com/adarshr/gradle/testlogger/functional/**'
